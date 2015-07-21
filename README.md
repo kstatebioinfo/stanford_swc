@@ -70,7 +70,7 @@ python2.7 ~/stanford_swc/fasta-o-matic/fasta_o_matic.py -f ~/stanford_swc/fasta-
 Fix unwrapped FASTA file:
 
 ```
-python ~/stanford_swc/fasta-o-matic/fasta_o_matic.py -f ~/stanford_swc/fasta-o-matic/fasta/missing_last_new_line.fa -c -o ~/out_stanford_swc -s wrap new_line header_whitespace
+python ~/stanford_swc/fasta-o-matic/fasta_o_matic.py -f ~/stanford_swc/fasta-o-matic/fasta/unwrapped.fa -c -o ~/out_stanford_swc -s wrap new_line header_whitespace
 ```
 
 Remove spaces in FASTA headers:
