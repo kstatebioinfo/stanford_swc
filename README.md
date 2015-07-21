@@ -45,7 +45,8 @@ trailing slash).
 
 EXAMPLES:
 
-Make output directory:
+Make output directory (your re-formatted FASTA
+files will be created here) :
 
 ```
 mkdir ~/out_stanford_swc
@@ -56,7 +57,6 @@ Fix FASTA file with inconsistantly wrapped sequence
 lines and remove spaces in headers:
 
 ```
-mkdir ~/out_stanford_swc
 python3 ~/stanford_swc/fasta-o-matic/fasta_o_matic.py -f ~/stanford_swc/fasta-o-matic/fasta/miswrapped.fa -c -o ~/out_stanford_swc -s wrap header_whitespace
 ```
 
