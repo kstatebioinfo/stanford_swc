@@ -1,11 +1,32 @@
 stanford_swc
 ============
 
+**N50** 
 
-Cite as: Jennifer M Shelton (2015). FASTA tools including Fasta-O-Matic 
+```
+usage: N50.py FASTA
+```
+
+DESCRIPTION: Script calculates N50 for a FASTA file.
+
+
+DEPENDENCIES: 
+
+fasta_o_matic.py runs with either python2.7+ or python3.3+
+
+EXAMPLE:
+
+Calculate N50 :
+
+```
+python ~/stanford_swc/N50.py ~/stanford_swc/fasta-o-matic/fasta/normal.fa
+```
 
 
 **Fasta-O-Matic** 
+
+Cite as: Jennifer M Shelton (2015). FASTA tools including Fasta-O-Matic 
+
 
 ```
 usage: fasta_o_matic.py [-h] [-v] [-q] [-c] -f FILE [-s STEPS [STEPS ...]][-o OUT_DIR]
@@ -17,7 +38,6 @@ are NOT required) are shown in square brackets. The actively
 maintained version of Fasta-O-Matic is at :
 https://github.com/i5K-KINBRE-script-share/read-cleaning-format-conversion
 
-If you are receiving a similar error from a program you are trying to run then WrapFasta.pl will create a reformatted fasta file from your improperly wrapped file.
 
 DEPENDENCIES: 
 
