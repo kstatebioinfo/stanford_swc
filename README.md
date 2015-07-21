@@ -1,6 +1,25 @@
 stanford_swc
 ============
 
+**count_fasta**
+
+```
+usage: bash count_fasta.sh FASTA
+```
+
+DESCRIPTION: Script counts number of sequences in a FASTA file
+
+DEPENDENCIES: 
+
+count_fasta has no dependencies
+
+EXAMPLES:
+
+```
+bash ~/stanford_swc/count_fasta.sh ~/stanford_swc/fasta-o-matic/fasta/normal.fa
+```
+
+
 **N50** 
 
 ```
@@ -8,7 +27,6 @@ usage: N50.py FASTA
 ```
 
 DESCRIPTION: Script calculates N50 for a FASTA file.
-
 
 DEPENDENCIES: 
 
